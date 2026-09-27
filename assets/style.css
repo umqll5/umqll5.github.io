@@ -107,6 +107,17 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .chip.solid { background: var(--primary); border-color: var(--primary); color: #fff; }
 .chip.solid:hover { background: #163a5c; }
 
+/* 公众号二维码 */
+.wechat-box { margin-top: 16px; padding-top: 14px; border-top: 1px dashed var(--line); }
+.wechat-box img {
+  width: 128px; height: 128px; display: block; margin: 0 auto;
+  border-radius: 10px; border: 1px solid var(--line);
+}
+.wechat-box p {
+  margin-top: 8px; font-size: 0.85rem; color: var(--ink-soft); line-height: 1.5;
+}
+.wechat-box p span { color: var(--ink-faint); font-size: 0.78rem; }
+
 /* 简介正文 */
 .bio h1 {
   font-family: var(--serif); font-size: 2rem; font-weight: 700; line-height: 1.3;
