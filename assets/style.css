@@ -233,6 +233,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 }
 .badge.gold { background: #faf1e0; color: #8a6116; }
 .badge.red { background: #fbeae9; color: var(--accent); }
+.badge.cas { background: #e6f2ec; color: #24684a; }
 .pub-empty { color: var(--ink-faint); font-size: 0.9rem; padding: 10px 14px; display: none; }
 
 /* ---------------- 列表 / 表格类 ---------------- */
